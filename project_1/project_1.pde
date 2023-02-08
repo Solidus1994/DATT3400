@@ -95,7 +95,4 @@ void keyPressed(){
 if(key == 's'||key =='S'){
    mo=!mo;
   } 
- if(key == 'w'||key =='W'){
-   
- }
 }
