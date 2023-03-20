@@ -18,7 +18,6 @@ void setup() {
 void draw() {
   background(0);
   
-  // Translate to center of screen
   translate(width/2, height/2);
   
   // Draw Sun
@@ -49,7 +48,6 @@ void draw() {
   
   popMatrix();
   
-  // Update rotation angles
   sunRotation += 0.01;
   moonRotation += 0.05;
 }
